@@ -1,55 +1,114 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
+/* Style */
 body {
-  background-color: ghostwhite;
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  background-image: url(https://www.gurupendidikan.co.id/wp-content/uploads/2018/10/2-1.png);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-#judul {
-  background-color: rgb(0, 127, 253);
-  color: aliceblue;
-  font-size: 18px;
-  text-align: center;
+/* CSS Box Model, CSS Outline, CSS Text, CSS Fonts,CSS Links, CSS List */
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+  outline-style: solid;
+  outline-color: #04f892;
+}
+
+.header {
   padding: 15px;
-  margin-bottom: 50px;
+  padding-bottom: 5px;
 }
 
-.media img {
-  display: block;
-  margin: 0 auto;
-  width: 480px;
-  height: 360px;
-  margin-bottom: 50px;
+.header ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.container .header ul {
+  margin-left: -40px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #04f892;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: hsl(298, 86%, 59%);
+  color: white;
+}
+
+.hero {
+  height: 380px;
+  background-image: url(https://cdnwpedutorenews.gramedia.net/wp-content/uploads/2022/07/12103207/desk-g730a8c276_1920-768x512.jpg);
+  background-size: cover;
+  background-position: 0 -75px;
+  outline-style: solid;
+  outline-color: #04f892;
+  outline-width: 3px;
 }
 
 .content {
-  padding-right: 30px;
-  padding-left: 30px;
-  font-size: 18px;
+  padding: 15px;
 }
 
-.content .opening p {
-  margin-bottom: 30px;
+.content .penulis {
+  margin-top: -15px;
+  font-size: 16px;
 }
 
-.content img {
-  width: 360px;
-  height: 200px;
-  display: block;
-  margin: 0 auto;
+.content .penulis a {
+  text-decoration: none;
+  color: #04f892;
 }
 
-.content div h3,
-.content div p {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.content p {
+  text-align: justify;
 }
 
-#form {
-  padding: 20px;
-  background-color: slategray;
-  color: aliceblue;
-  border: 3px solid palevioletred;
+/*CSS tabel */
+.tabelheading h2 {
+  padding: 15px;
+  margin-top: -20px;
+}
+
+.tabeljenis {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 780px;
+  height: 100px;
+  text-align: justify;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+td {
+  text-align: justify;
+  padding: 15px;
+}
+
+th {
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  text-align: center;
+}
+
+/*CSS Icon */
+.footer p {
+  color: #04f892;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.footer .besar {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
